@@ -26,5 +26,5 @@ exports.onlyModerator = (req,res)=>{
 
 exports.onlyAdmin = (req,res)=>{
      // #swagger.tags = ['Test']
-    res.status(200).send('Contenido de Admin');
+    res.status(200).send('Contenido de Admin desde Render');
 }

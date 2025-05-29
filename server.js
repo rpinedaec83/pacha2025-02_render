@@ -36,7 +36,7 @@ app.use(
 );
 
 app.get('/',(req,res)=>{
-    res.send({message:"Bienvenido a mi API"})
+    res.send({message:"Bienvenido a mi API desde Render"})
 })
 
 app.post('/upload', upload.single('image'), (req,res)=>{
